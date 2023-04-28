@@ -1,17 +1,19 @@
-## Project A
-Description
+## Docker Website
+Ho realizzato questo sito web per l'esame di stato, in cui viene spiegato il funzionamento di Docker, Docker Compose e Kubernetes
 - ![600x200](../assets/project1.png)
-- Tags: Category 1
+- Tags: Generale
 - Badges:
-  - Badge [blue]
+  - HTML [red]
+  - CSS [blue]
+  - JS [yellow]
 - Buttons:
-  - Link [https://example.com]
+  - Link [https://]
 
-## Project B
+## Shuritech Page
 Description
 - ![600x200](../assets/project2.png)
-- Tags: Category 2
+- Tags: Fiverr
 - Badges:
-  - Badge [blue]
+  - HTML [blue]
 - Buttons:
   - Link [https://example.com]

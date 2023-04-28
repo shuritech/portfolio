@@ -26,25 +26,27 @@
 ## Maso Salengo
 - *Volano, TN* | Sep'22 - Oct'22
 - ![grape128](../assets/grape128.png)
-- Tags: Generale
+- Tags: Agricolo
 - Badges:
   - Natura [green]
+  - Handmade [pink]
 - List Items:
-  - Raccoglitore 
-  - Raccoglitore addetto alla vendemmia | Tempo pieno
+  - Raccoglimento frutta.
+  - Addetto alla vendemmia | Tempo pieno
 
 ## Maso Salengo
 - *Volano, TN* | Sep'21 - Oct'21
 - ![farmer128](../assets/farmer128.png)
-- Tags: Generale
+- Tags: Agricolo
 - Badges:
   - Natura [green]
+  - Handmade [pink]
 - List Items:
-  - Raccoglimento
-  - Raccoglitore addetto alla vendemmia | Tempo pieno
+  - Raccoglimento frutta.
+  - Addetto alla vendemmia | Tempo pieno
 
 ## Fix your problem
-- *Beezy* | Mar'23 - Now
+- *Fiverr* | Mar'23 - Now
 - ![logo512](../assets/comp128.png)
 - Tags: Fiverr
 - Badges:
@@ -60,19 +62,23 @@
 - ![logo512](../assets/text128.png)
 - Tags: Fiverr
 - Badges:
-  - Badge [blue]
+  - Essay [green]
 - List Items:
   - Scrivo e traduco testi.
   - Inglese | Tedesco | Italiano
+  
+// blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
 
 ## Build Computers
 - *Fiverr* | Mar'23 - Now
 - ![logo512](../assets/gaming128.png)
 - Tags: Fiverr
 - Badges:
-  - Badge [blue]
+  - Hardware [blue]
+  - Software [yellow]
+  - Sistemi Operativi [black]
 - List Items:
-  - Point 1
+  - Realizzo la configurazione adatta ad un certo budget.
   - Point 2
 
 ## Programming C
@@ -80,7 +86,7 @@
 - ![logo512](../assets/c128.png)
 - Tags: Fiverr
 - Badges:
-  - Programming [blue]
+  - Programming [purple]
   - Software [yellow]
 - List Items:
   - Scrivo programmi in C, aggiungo commenti e spiego il codice.

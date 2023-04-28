@@ -31,7 +31,7 @@ export default function About({ color }) {
               {profile.about}
             </Text>
             <Text color={"gray.300"} fontSize={"xl"} px={4}>Particolarmente abile nel team work e dell'hardware problem solving. 
-            Disposto a lavorare in ogni settore, il mio interesse principale è acquisire esperienza. Disponibilità attuale: Part Time Remoto
+            Disposto a lavorare in ogni settore, il mio interesse principale è acquisire esperienza.
             </Text>
             <Text color={"green.400"} fontSize={"xl"} px={4}>Part Time Sede | Part Time Remoto
             </Text>

@@ -8,6 +8,7 @@ const parseOtherProjects = (mdContent) => {
     const line = lines[i];
 
     if (line.startsWith("## ")) {
+
       const name = line.substr(3).trim();
       const description = lines[++i].trim();
       const tags = lines[++i].split(":")[1].trim();
