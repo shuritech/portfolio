@@ -1,5 +1,5 @@
 ## Help Desk
-- *Rovereto, TN* | Jan'21 - Now
+- *Rovereto, Ala, Trento* | Jan'21 - Now
 - ![busi128](../assets/com128.png)
 - Tags: Informatica
 - Badges:

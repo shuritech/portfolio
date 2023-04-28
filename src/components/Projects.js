@@ -91,9 +91,13 @@ export default function Projects({ color }) {
               </Fade>
             ))}
           </Stack>
-          <Text color={"gray.600"} fontSize={"xl"} px={4}>
-            Other Projects
-          </Text>
+          <Stack align="center" direction="row" px={4}>
+              <HStack mx={4}>
+                
+                <Text color={`${color}.400`} fontWeight={800}>Feedback</Text>
+              </HStack>
+              <Divider orientation="horizontal" />
+            </Stack>
           <Center px={4}>
             <ButtonGroup variant="outline">
               <Button

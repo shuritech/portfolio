@@ -1,6 +1,6 @@
 ## Project A
 Description
-- ![600x200](../assets/work.jpeg)
+- ![600x200](../assets/project1.png)
 - Tags: Category 1
 - Badges:
   - Badge [blue]
@@ -9,7 +9,7 @@ Description
 
 ## Project B
 Description
-- ![600x200](../assets/work2.jpeg)
+- ![600x200](../assets/project2.png)
 - Tags: Category 2
 - Badges:
   - Badge [blue]
