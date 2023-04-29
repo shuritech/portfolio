@@ -42,7 +42,7 @@ export default function Experience({ color }) {
 
   return (
     <>
-      <Container maxW={"3xl"} id="experience">
+      <Container maxW={"5xl"} id="experience">
         <Stack
           as={Box}
           textAlign={"center"}

@@ -3,7 +3,7 @@
 
 ## Header
 - Matteo Zandonai 
-- Computer expert
+- Computer Expert
 - Welcome to my website!
 
 ## About

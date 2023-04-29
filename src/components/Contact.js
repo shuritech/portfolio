@@ -27,7 +27,7 @@ export default function Contact({ color }) {
   };
   return (
     <>
-      <Container maxW={"3xl"} id="contact">
+      <Container maxW={"5xl"} id="contact">
         <Stack
           as={Box}
           textAlign={"center"}
@@ -41,8 +41,8 @@ export default function Contact({ color }) {
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>
-          <Stack spacing={4} as={Container} maxW={"3xl"} textAlign={"center"}>
-            <Heading fontSize={"3xl"}>Contattami!</Heading>
+          <Stack spacing={4} as={Container} maxW={"5xl"} textAlign={"center"}>
+            <Heading fontSize={"5xl"}>Contattami!</Heading>
             <Text color={"gray.600"} fontSize={"xl"} px={4}>
               {profile.contact}
             </Text>

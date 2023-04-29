@@ -6,6 +6,7 @@ import {
   Stack,
   Center,
   HStack,
+  Button,
 
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
@@ -54,6 +55,7 @@ export default function Header({ color }) {
               {profile.headerRole}
             </Text>
           </Heading>
+
           <Center>
             <HStack pt={4} spacing={4}>
               <FaLinkedin onClick={linkedin} size={28} />
@@ -62,7 +64,18 @@ export default function Header({ color }) {
               <FaInstagram onClick={instagram} size={28} />
             </HStack>
           </Center>
-          
+
+          <Center>
+            <Stack spacing={4} direction='row' align='center'>
+              <Button color={`${color}.400`} size='sm'>
+                CV ITA
+              </Button>
+              <Button color={`${color}.400`} size='sm'>
+                CV ENG
+              </Button>
+            </Stack>
+          </Center>
+
         </Stack>
       </Container>
     </>

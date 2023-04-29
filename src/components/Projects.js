@@ -23,6 +23,8 @@ import ProjectsArray from "./ProjectsArray";
 import OtherProjectsArray from "./OtherProjectsArray";
 import TagsArray from "./TagsArray";
 import React from 'react'
+import { FcGraduationCap } from "react-icons/fc";
+
 
 export default function Projects({ color }) {
   const projects = ProjectsArray();
@@ -37,7 +39,7 @@ export default function Projects({ color }) {
 
   return (
     <>
-      <Container maxW={"3xl"} id="projects">
+      <Container maxW={"5xl"} id="projects">
         <Stack
           as={Box}
           textAlign={"center"}
@@ -95,7 +97,7 @@ export default function Projects({ color }) {
           <Stack align="center" direction="row" px={4}>
             <HStack mx={4}>
 
-              <Text color={`${color}.400`} fontWeight={800}>Feedback</Text>
+              <Text color={`${color}.400`} fontWeight={800}>Certificazioni</Text>
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>
@@ -133,12 +135,13 @@ export default function Projects({ color }) {
                 //---------------------------------
                 <Fade bottom>
                   <Card key={other.name}>
-                    
                     <Stack>
-                    
                       <CardBody align="left" h={[null, "40vh"]}>
-                      
-                        <Heading size="sm">{other.name}</Heading>
+                        <div style={{ display: "flex", justifyContent: "left" }} color={"green.400"} fontSize={"xl"} px={4}>
+                          <FcGraduationCap size={20} /><span>&nbsp; {other.name}</span>
+                        </div>
+
+                        {/*<Heading size="sm">{other.name}</Heading>*/}
                         <Divider orientation="horizontal" py={2} />
                         <Text fontSize="sm" py={2}>
                           {other.description}
@@ -147,7 +150,7 @@ export default function Projects({ color }) {
                         <HStack spacing={2}>
                           {other.buttons.map((button) => (
                             <Link
-                              key={button.text}
+                              key={button.text}                      
                               href={button.href}
                               color={`${color}.400`}
                             >
