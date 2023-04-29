@@ -7,6 +7,15 @@ import {
   Center,
   HStack,
   Button,
+  PopoverTrigger,
+  Popover,
+  PopoverFooter,
+  PopoverCloseButton,
+  Portal,
+  PopoverBody,
+  PopoverContent,
+  PopoverHeader,
+  PopoverArrow
 
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
@@ -75,6 +84,8 @@ export default function Header({ color }) {
               </Button>
             </Stack>
           </Center>
+
+          
 
         </Stack>
       </Container>
