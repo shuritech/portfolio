@@ -18,7 +18,9 @@ export default function Footer() {
         py={4}
         align="center"
       >
-        <Text>© 2023 Matteo Zandonai | eldoraboo. All rights reserved</Text>
+        <Text fontSize='xs'>© 2023 Matteo Zandonai | Shuritech. All rights reserved</Text>
+        <Text fontSize='xs'>Made with Chakra React</Text>
+        
       </Container>
     </Box>
   );

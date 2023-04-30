@@ -23,7 +23,7 @@ import ProjectsArray from "./ProjectsArray";
 import OtherProjectsArray from "./OtherProjectsArray";
 import TagsArray from "./TagsArray";
 import React from 'react'
-import { FcGraduationCap } from "react-icons/fc";
+import { FcOk } from "react-icons/fc";
 
 
 export default function Projects({ color }) {
@@ -94,6 +94,8 @@ export default function Projects({ color }) {
               </Fade>
             ))}
           </Stack>
+
+          
           <Stack align="center" direction="row" px={4}>
             <HStack mx={4}>
 
@@ -138,7 +140,7 @@ export default function Projects({ color }) {
                     <Stack>
                       <CardBody align="left" h={[null, "40vh"]}>
                         <div style={{ display: "flex", justifyContent: "left" }} color={"green.400"} fontSize={"xl"} px={4}>
-                          <FcGraduationCap size={20} /><span>&nbsp; {other.name}</span>
+                          <FcOk size={20} /><span>&nbsp; {other.name}</span>
                         </div>
 
                         {/*<Heading size="sm">{other.name}</Heading>*/}

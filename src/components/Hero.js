@@ -7,19 +7,13 @@ import {
   Center,
   HStack,
   Button,
-  PopoverTrigger,
-  Popover,
-  PopoverFooter,
-  PopoverCloseButton,
-  Portal,
-  PopoverBody,
-  PopoverContent,
-  PopoverHeader,
-  PopoverArrow
 
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
 import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
+
+const PDF_FILE_URL_ENG = 'http://localhost:3000/Matteo_Zandonai_CV_ENG.pdf'
+const PDF_FILE_URL_ITA = 'http://localhost:3000/Matteo_Zandonai_CV_ITA.pdf'
 
 
 export default function Header({ color }) {
@@ -36,6 +30,16 @@ export default function Header({ color }) {
   const instagram = () => {
     window.open(`${profile.instagram}`, "_blank", "noreferrer,noopener");
   };
+
+  const downloadFileAtURL=(url)=>{
+    const fileName = url.split('/').pop()
+    const aTag = document.createElement('a')
+    aTag.href=url
+    aTag.setAttribute('download',fileName)
+    document.body.appendChild(aTag)
+    aTag.click()
+    aTag.remove()
+  }
 
   return (
     <>
@@ -76,10 +80,10 @@ export default function Header({ color }) {
 
           <Center>
             <Stack spacing={4} direction='row' align='center'>
-              <Button color={`${color}.400`} size='sm'>
+              <Button color={`${color}.400`} size='sm' onClick={()=>{downloadFileAtURL(PDF_FILE_URL_ITA)}}>
                 CV ITA
               </Button>
-              <Button color={`${color}.400`} size='sm'>
+              <Button color={`${color}.400`} size='sm' onClick={()=>{downloadFileAtURL(PDF_FILE_URL_ENG)}}>
                 CV ENG
               </Button>
             </Stack>

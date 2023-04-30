@@ -30,10 +30,10 @@ export default function About({ color }) {
           </Stack>
 
           <Text color={`white.400`} fontWeight={800} fontSize={"xl"}>Qualcosa su di me ...</Text>
-          <Text color={"gray.300"} fontSize={"xl"} px={4}>
+          <Text as='em' color={"gray.300"} fontSize={"xl"} px={4}>
             {profile.about}
           </Text>
-          <Text color={"gray.300"} fontSize={"xl"} px={4}>Particolarmente abile nel team work e dell'hardware problem solving.
+          <Text as='em' color={"gray.300"} fontSize={"xl"} px={4}>Particolarmente abile nel team work e nell'hardware problem solving.
             Disposto a lavorare in ogni settore, il mio interesse principale è acquisire esperienza.
           </Text>
 
@@ -42,12 +42,16 @@ export default function About({ color }) {
             justifyContent: "center",
             color: "orange",
           }} fontSize={"xl"} px={4}>
-            <FcClock size={20} /><span>&nbsp; Part Time Sede &nbsp; | &nbsp; Part Time Remoto</span>
+
+            <FcClock size={20} /><span>&nbsp; Part Time Sede &nbsp;  &nbsp; Part Time Remoto</span>
           </div>
+
         </Stack>
+
       </Container>
 
-      
+
+
     </>
   );
 }

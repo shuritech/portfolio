@@ -79,7 +79,7 @@
   - Sistemi Operativi [black]
 - List Items:
   - Realizzo la configurazione adatta ad un certo budget.
-  - Point 2
+  - OS | GPU | CPU | Disks | Case | Laptop
 
 ## Programming C
 - *Fiverr* | Mar'23 - Now

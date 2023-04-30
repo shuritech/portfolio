@@ -1,19 +1,19 @@
 ## Docker Website
-Ho realizzato questo sito web per l'esame di stato, in cui viene spiegato il funzionamento di Docker, Docker Compose e Kubernetes
+Ho realizzato questo sito web per l'esame di stato, in cui viene spiegato il funzionamento di Docker, Docker Compose e Kubernetes.
 - ![600x200](../assets/project1.png)
-- Tags: Generale
+- Tags: Informatica
 - Badges:
   - HTML [red]
   - CSS [blue]
   - JS [yellow]
 - Buttons:
-  - Link [https://]
+  - Link [https://dockersite.netlify.app/]
 
 ## Shuritech Page
-Description
+Da un anno gestisco la pagina instagram @shuri_technology, pubblico post sulla tecnologia, programmazione e gaming.
 - ![600x200](../assets/project2.png)
-- Tags: Fiverr
+- Tags: Informatica
 - Badges:
-  - HTML [blue]
+  - Instgram [pink]
 - Buttons:
-  - Link [https://example.com]
+  - Link [https://www.instagram.com/shuri_technology/]

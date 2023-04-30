@@ -28,6 +28,7 @@ export default function Contact({ color }) {
   return (
     <>
       <Container maxW={"5xl"} id="contact">
+
         <Stack
           as={Box}
           textAlign={"center"}
@@ -49,6 +50,7 @@ export default function Contact({ color }) {
             <Text color={`${color}.500`} fontWeight={600} fontSize={"lg"} px={4}>
               {profile.email}
             </Text>
+
             <Center>
               <HStack pt={4} spacing={4}>
                 <FaLinkedin onClick={linkedin} size={28} />
