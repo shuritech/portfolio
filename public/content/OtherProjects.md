@@ -4,7 +4,7 @@
 - Badges:
   - Security [orange]
 - Buttons:
-  - Udemy [https://example.com]
+  - Udemy [https://www.udemy.com/course/phishing/]
 
 ## Cyber Welfare
 2023
@@ -12,7 +12,7 @@
 - Badges:
   - Security [orange]
 - Buttons:
-  - Udemy []
+  - Udemy [https://www.udemy.com/course/cyber-welfare-e-sicurezza-online/]
 
 ## Crypto Currency
 2022
@@ -20,7 +20,7 @@
 - Badges:
   - Crypto [pink]
 - Buttons:
-  - Udemy [https://example.com]
+  - Udemy [https://www.udemy.com/]
 
 ## Safir Zeniq Currency
 2022
@@ -28,7 +28,7 @@
 - Badges:
   - Crypto [pink]
 - Buttons:
-  - Udemy [https://example.com]
+  - Udemy [https://www.udemy.com/]
 
 ## MEGA - Programming
 2022
@@ -44,7 +44,7 @@
 - Badges:
   - Network [cyan]
 - Buttons:
-  - AICA [https://example.com]
+  - AICA [https://www.aicadigitalacademy.it/aica_academy/]
 
 ## CCNA v7
 2020
@@ -52,7 +52,7 @@
 - Badges:
   - Software [yellow]
 - Buttons:
-  - Cisco [https://example.com]
+  - Cisco [https://www.netacad.com/]
 
 ## EUCIP 1 Hardware
 2019
@@ -60,7 +60,7 @@
 - Badges:
   - Hardware [blue]
 - Buttons:
-  - AICA [https://example.com]
+  - AICA [https://www.aicadigitalacademy.it/aica_academy/]
 
 ## Dublin English Course
 2018
@@ -68,7 +68,7 @@
 - Badges:
   - Lingua [green]
 - Buttons:
-  - DCU [https://example.com]
+  - DCU [https://www.dcu.ie/]
 
 ## Linux Essentials
 2019
@@ -76,7 +76,7 @@
 - Badges:
   - Software [yellow]
 - Buttons:
-  - LPI [https://example.com]
+  - LPI [https://www.lpi.org/it/our-certifications/summary-of-certifications]
 
 ## ECDL Standard
 2016
@@ -85,7 +85,7 @@
   - Hardware [blue]
   - Software [yellow]
 - Buttons:
-  - AICA [https://example.com]
+  - AICA [https://www.aicadigitalacademy.it/aica_academy/]
 
 
 
