@@ -64,7 +64,7 @@
 
 ## Dublin English Course
 2018
-- Tags: Lingue
+- Tags: Lingua
 - Badges:
   - Lingua [green]
 - Buttons:

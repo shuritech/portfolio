@@ -15,7 +15,6 @@ import { FaLinkedin, FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
 const PDF_FILE_URL_ENG = 'http://localhost:3000/Matteo_Zandonai_CV_ENG.pdf'
 const PDF_FILE_URL_ITA = 'http://localhost:3000/Matteo_Zandonai_CV_ITA.pdf'
 
-
 export default function Header({ color }) {
   const profile = ProfileArray();
   const linkedin = () => {
